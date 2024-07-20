@@ -8,7 +8,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Send greeting
-      env:
-        GITHUB_TOKEN: ${{ secrets.Nothing }}  # Example of using a GitHub secret
-      run: echo "Hello World"
+      - name: Send greeting
+        run: echo "Not Hello World ${{secrets.API_KEY_}}"
