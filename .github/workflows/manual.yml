@@ -11,3 +11,5 @@ jobs:
         run: echo "Not Hello World ${{secrets.GITHUB_TOKEN}}"
       - name: Get secret
         run: echo "Not ..... ...... ${{secrets.SAIFI_ACTION}}"
+      - name: Get Variable
+        run: echo "Variable .... ...... ${{var.DEMO_VALUE}}
