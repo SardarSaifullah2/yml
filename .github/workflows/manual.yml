@@ -6,7 +6,6 @@ on:
 jobs:
   greet:
     runs-on: ubuntu-latest
-
     steps:
       - name: Send greeting
-        run: echo "Not Hello World ${{secrets.API_KEY_}}"
+        run: echo "Not Hello World ${{secrets.GITHUB_TOKEN}}"
