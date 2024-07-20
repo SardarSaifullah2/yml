@@ -9,3 +9,5 @@ jobs:
     steps:
       - name: Send greeting
         run: echo "Not Hello World ${{secrets.GITHUB_TOKEN}}"
+      - name: Get secret
+        run: echo "Not Hello World ${{secrets.API_URL}}"
