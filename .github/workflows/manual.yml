@@ -10,4 +10,4 @@ jobs:
       - name: Send greeting
         run: echo "Not Hello World ${{secrets.GITHUB_TOKEN}}"
       - name: Get secret
-        run: echo "Not Hello World ${{secrets.API_URL}}"
+        run: echo "Not ..... ...... ${{secrets.SAIFI_ACTION}}"
