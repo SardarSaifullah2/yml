@@ -12,4 +12,4 @@ jobs:
       - name: Get secret
         run: echo "Not ..... ...... ${{secrets.SAIFI_ACTION}}"
       - name: Get Variable
-        run: echo "Variable Value : ${{vars.DEMOVARIABLE}}"
+        run: echo "Variable Value = ${{vars.DEMOVARIABLE}}"
